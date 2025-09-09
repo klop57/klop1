@@ -120,4 +120,4 @@ for ch in strings:
 print(new_str)
 
 # '리스트 컴프리헨션'으로 작성
-new_str =[ ch.upper() for ch in strings if len(ch)]
+new_str =[ ch.upper() for ch in strings if len(ch) > 2]

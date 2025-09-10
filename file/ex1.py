@@ -85,6 +85,6 @@ print(3)
 # print(value, end= '\n')
 
 # end 매개변수를 줄바꿈 대신 공백으로 바꾸기
-print(1, end=' ')
-print(2, end=' ')
-print(3, end=' ')
+print(1, end=', ')
+print(2, end=', ')
+print(3, end=', ')

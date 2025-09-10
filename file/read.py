@@ -74,28 +74,28 @@
 #     sum = sum + int(s)
 #     print(s,type(s))
 
-# cnt = len(lis)
-# print(sum/cnt)
+# # cnt = len(lis)
+# # print(sum/cnt)
 
 
 
-f = open('numbers.txt','r')
-lis = f.readlines()
+# f = open('numbers.txt','r')
+# lis = f.readlines()
 
-for line in lis:
-    if int(line)%2 == 0:
-        pass
-    print(type(line))
-    print(line, end='')
+# for line in lis:
+#     if int(line)%2 == 0:
+#         pass
+#     print(type(line))
+#     print(line, end='')
 
-f.close
+# f.close
 
+# # 파일 쓰기 mode로 let's go~!
+# f = open('new.txt','w')
+# f.write('hello world')
+# f.close()
 
-
-
-
-
-
-
-# number.txt 파일을 읽고
-# 짝수만 출력하세요
+# # 위 코드를 간단하게 작성하기
+# # with를 사용하면 마지막에 자동으로 close가 실행됨
+# with open('new.txt','w')as f: 
+#     # 블록에는 수행하고 싶은 코드 작성

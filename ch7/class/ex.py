@@ -339,3 +339,28 @@ s2.info()
 # 정리:
 # 클래스 변수 - 모든 객체가 공유하는 데이터
 # 인스턴스 변수 - 객체 고유의 데이터
+
+
+class Calc:
+
+    type = '기본 계산기'
+
+    def __init__(self,color):
+        self.Calc_color = color
+         
+    def add(self,a,b):
+        print('합계:', a+b)
+    def sub(self,a,b):
+        print('합계:', a-b)
+
+calc1 = Calc('white')
+print(calc1.Calc_color)
+print(calc1.type)
+calc1.add(10,5)
+calc1.sub(10,5)
+
+calc2 = Calc('red')
+print(calc2.Calc_color)
+print(calc1.type)
+
+# 
